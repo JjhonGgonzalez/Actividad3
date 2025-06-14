@@ -1,0 +1,27 @@
+# Archivos y carpetas de compilación
+/bin/
+/build/
+/target/
+
+# Archivos del IDE (Eclipse, IntelliJ, NetBeans, etc.)
+*.class
+*.log
+*.iml
+*.ipr
+*.iws
+*.DS_Store
+.idea/
+*.swp
+*.swo
+*.bak
+*.tmp
+*.vscode/
+
+# Archivos del sistema
+Thumbs.db
+desktop.ini
+
+# Otros
+*.jar
+*.war
+*.ear
