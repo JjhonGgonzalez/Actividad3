@@ -1,0 +1,10 @@
+package modelos;
+
+public enum Proyectos {
+    SISTEMA_GESTION,
+    APLICACION_MOVIL,
+    PLATAFORMA_EDUCATIVA,
+    PORTAL_ECOMMERCE,
+    SISTEMA_SALUD,
+    HERRAMIENTA_ANALISIS
+}

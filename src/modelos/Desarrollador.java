@@ -1,5 +1,5 @@
 package modelos;
-
+//Desarrollador es un tipo de empleado que hereda todos los atributos y metodos de Empleado
 public class Desarrollador  extends Empleado{
 
     // Constructor recibe los mismos parametros de la clase padre "Empleado"
@@ -10,7 +10,7 @@ public class Desarrollador  extends Empleado{
 
      @Override
     // Implementacion del metodo salarioBruto(), teniendo en cuenta que el salario puede variar entre empleados
-public float salarioBruto(){
+public double salarioBruto(){
         return (float) (sueldoHora * 205);
      }
 }

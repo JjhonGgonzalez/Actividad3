@@ -7,7 +7,7 @@ public abstract class Empleado {
     protected String documento;
     protected String nombre;
     protected double sueldoHora;
-
+    protected Empresa empresa;
     // Constructor se encarga de crear los objetos de las subclases de Empleado, le pasa los parametros que trae a los atributos de la clase Empleado
     public Empleado(String documento, String nombre, double sueldoHora){
         this.documento = documento;
@@ -34,9 +34,10 @@ public abstract class Empleado {
     public void setSueldoHora(double sueldoHora){
         this.sueldoHora = sueldoHora;
     }
-
+    public Empresa getEmpresa(){return empresa;}
+    public void setEmpresa(Empresa empresa){this.empresa = empresa;}
     // Metodo abstracto para calcular salario Bruto
-    public abstract float salarioBruto();
+    public abstract double salarioBruto();
 
     // Convierte el objeto en texto de forma legible
     @Override
